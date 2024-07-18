@@ -1,8 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity =0.7.6;
 
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import './PoolAddress.sol';
+/**
+* import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+* import './PoolAddress.sol';
+* change by:
+*/
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/interfaces/IUniswapV3Pool.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/PoolAddress.sol';
 
 /// @notice Provides validation for callbacks from Uniswap V3 Pools
 library CallbackValidation {
