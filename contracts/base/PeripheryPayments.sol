@@ -1,14 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.7.5;
 
-import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
-
-import '../interfaces/IPeripheryPayments.sol';
-import '../interfaces/external/IWETH9.sol';
-
-import '../libraries/TransferHelper.sol';
-
-import './PeripheryImmutableState.sol';
+/**
+* import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+* import '../interfaces/IPeripheryPayments.sol';
+* import '../interfaces/external/IWETH9.sol';
+* import '../libraries/TransferHelper.sol';
+* import './PeripheryImmutableState.sol';
+*  Change by:
+*/
+import 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/IPeripheryPayments.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/external/IWETH9.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/TransferHelper.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/base/PeripheryImmutableState.sol';
 
 abstract contract PeripheryPayments is IPeripheryPayments, PeripheryImmutableState {
     receive() external payable {
