@@ -22,7 +22,7 @@ import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/interf
 import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/libraries/TickMath.sol';
 import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/PoolAddress.sol';
 import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/CallbackValidation.sol';
-import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/libraries/FullMath.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/LiquidityAmounts.sol';
 import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/base/PeripheryPayments.sol';
 import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/base/PeripheryImmutableState.sol';
 
