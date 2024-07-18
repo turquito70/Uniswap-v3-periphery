@@ -2,16 +2,25 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
+/**
 import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
 import '@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3MintCallback.sol';
 import '@uniswap/v3-core/contracts/libraries/TickMath.sol';
-
 import '../libraries/PoolAddress.sol';
 import '../libraries/CallbackValidation.sol';
-import '../libraries/LiquidityAmounts.sol';
 
+import '../libraries/LiquidityAmounts.sol';
 import './PeripheryPayments.sol';
 import './PeripheryImmutableState.sol';
+*/
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/interfaces/IUniswapV3Factory.sol';
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/interfaces/callback/IUniswapV3MintCallback.sol';
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/libraries/TickMath.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/PoolAddress.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/CallbackValidation.sol';
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/libraries/FullMath.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/base/PeripheryPayments.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/base/PeripheryImmutableState.sol';
 
 /// @title Liquidity management functions
 /// @notice Internal functions for safely managing liquidity in Uniswap V3
