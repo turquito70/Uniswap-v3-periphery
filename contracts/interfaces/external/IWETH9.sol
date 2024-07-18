@@ -1,7 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity =0.7.6;
-
-import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+/**
+* pragma solidity =0.7.6;
+* import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+* Change by:
+*/
+pragma solidity >=0.7.6;
+impoert 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol';
 
 /// @title Interface for WETH9
 interface IWETH9 is IERC20 {
