@@ -2,14 +2,24 @@
 pragma solidity >=0.7.5;
 pragma abicoder v2;
 
-import '@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol';
-import '@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol';
+/**
+* import '@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol';
+* import '@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol';
+* import './IPoolInitializer.sol';
+* import './IERC721Permit.sol';
+* import './IPeripheryPayments.sol';
+* import './IPeripheryImmutableState.sol';
+* import '../libraries/PoolAddress.sol';
+* Change to:
+*/
 
-import './IPoolInitializer.sol';
-import './IERC721Permit.sol';
-import './IPeripheryPayments.sol';
-import './IPeripheryImmutableState.sol';
-import '../libraries/PoolAddress.sol';
+import 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Metadata.sol';
+import 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Enumerable.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/IPoolInitializer.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/IERC721Permit.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/IPeripheryPayments.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/IPeripheryImmutableState.sol';
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/libraries/PoolAddress.sol';
 
 /// @title Non-fungible token for positions
 /// @notice Wraps Uniswap V3 positions in a non-fungible token interface which allows for them to be transferred
