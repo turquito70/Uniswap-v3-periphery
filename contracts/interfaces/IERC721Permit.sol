@@ -4,7 +4,7 @@ pragma solidity >=0.7.5;
 /**
 * import '@openzeppelin/contracts/token/ERC721/IERC721.sol';
 * Change to:
-/*
+*/
 import 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol';
 
 /// @title ERC721 with permit
