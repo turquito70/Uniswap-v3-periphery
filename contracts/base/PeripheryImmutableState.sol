@@ -1,7 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity =0.7.6;
-
-import '../interfaces/IPeripheryImmutableState.sol';
+/**
+* pragma solidity =0.7.6;
+* import '../interfaces/IPeripheryImmutableState.sol';
+* Change by:
+*/
+pragma solidity >=0.7.6;
+import 'https://github.com/turquito70/Uniswap-v3-periphery/blob/main/contracts/interfaces/IPeripheryImmutableState.sol';
 
 /// @title Immutable state
 /// @notice Immutable state used by periphery contracts
