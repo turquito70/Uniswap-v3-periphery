@@ -5,7 +5,7 @@
 * Change by:
 */
 pragma solidity >=0.7.6;
-impoert 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol';
+import 'https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol';
 
 /// @title Interface for WETH9
 interface IWETH9 is IERC20 {
