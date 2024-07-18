@@ -1,8 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
-
-import '@uniswap/v3-core/contracts/libraries/FullMath.sol';
-import '@uniswap/v3-core/contracts/libraries/FixedPoint96.sol';
+/**
+* import '@uniswap/v3-core/contracts/libraries/FullMath.sol';
+* import '@uniswap/v3-core/contracts/libraries/FixedPoint96.sol';
+* Change By:
+*/
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/libraries/FullMath.sol';
+import 'https://github.com/turquito70/Uniswap-v3-core/blob/main/contracts/libraries/FixedPoint96.sol';
 
 /// @title Liquidity amount functions
 /// @notice Provides functions for computing liquidity amounts from token amounts and prices
